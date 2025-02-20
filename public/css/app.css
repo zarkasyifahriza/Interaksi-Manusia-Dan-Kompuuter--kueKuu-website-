@@ -1,0 +1,267 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfaf2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fffaed;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left a, .nav-right a {
+    text-decoration: none;
+    color: #3e3e3e;
+    margin: 0 15px;
+    font-size: 17px;
+    transition: color 0.3s;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    color: #b57f3b;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.nav-right .contact {
+    color: #b57f3b;
+    font-weight: bold;
+}
+
+.nav-right i {
+    color: #b57f3b;
+    margin-left: 5px;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    margin: 50px auto 0;
+
+}
+
+.slides {
+    display: none;
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.text {
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Background semi-transparan */
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+.footer {
+    background-color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #3e3e3e;
+    margin-top: auto; /* Ensure footer is pushed to the bottom */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    text-align: center;
+    flex: 1;
+}
+
+.footer-logo img {
+    height: 60px;
+}
+
+.footer-logo h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-links div {
+    margin: 10px;
+}
+
+.footer-links h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #b57f3b;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+/* Container - Tengah */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px; /* Membatasi lebar agar tidak terlalu lebar */
+    margin: 80px auto; /* Agar tetap di tengah */
+    padding: 30px;
+}
+
+.container img {
+    margin-bottom: 10px;
+}
+
+.since {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b57f3b;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3e3e3e;
+    margin-bottom: 15px;
+}
+
+.love-message {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b57f3b;
+    margin-top: 20px;
+}
+
+.slogan {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3e3e3e;
+    margin-top: 10px;
+}
+
+/* Styling untuk section produk spesial */
+.special-product {
+    position: relative;
+    width: 120%;
+    height: 487px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Styling untuk gambar */
+.product-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Agar gambar berada di belakang teks */
+}
+
+/* Styling untuk konten */
+.special-product-content {
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 278px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tagline {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.product-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.product-button:hover {
+    background-color: white;
+    color: black;
+}
