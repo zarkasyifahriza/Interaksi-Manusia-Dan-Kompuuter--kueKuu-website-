@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 5px 300px;
     background-color: #fffaed;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -28,7 +28,7 @@ body {
     text-decoration: none;
     color: #3e3e3e;
     margin: 0 15px;
-    font-size: 17px;
+    font-size: 12px;
     transition: color 0.3s;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .logo img {
-    height: 150px;
+    height: 85px;
 }
 
 .nav-right .contact {
@@ -154,8 +154,6 @@ body {
 .footer-bottom {
     text-align: center;
     padding: 10px;
-    background-color: #f8f8f8;
-    width: 100%;
 }
 
 /* Container - Tengah */
@@ -264,4 +262,140 @@ body {
 .product-button:hover {
     background-color: white;
     color: black;
+}
+.varian-produk {
+    padding: 50px 20px;
+}
+
+.sub-title {
+    color: #A36A4D;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 28px;
+    color: #6D3D14;
+    margin-top: 5px;
+}
+
+.description {
+    font-size: 16px;
+    color: #866D5C;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.produk-item {
+    text-align: center;
+}
+
+.produk-item img {
+    width: 365px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.produk-item img:hover {
+    transform: scale(1.05);
+}
+
+.produk-item p {
+    font-size: 18px;
+    color: #6D3D14;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.lihat-produk {
+    margin-top: 30px;
+}
+
+.lihat-produk a {
+    text-decoration: none;
+    color: #A36A4D;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 2px solid #A36A4D;
+    padding-bottom: 5px;
+}
+
+.lihat-produk a:hover {
+    color: #6D3D14;
+    border-bottom: 2px solid #6D3D14;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+.contact-image {
+    flex: 1;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 30px;
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form .btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form .btn:hover {
+    background-color: #e65c00;
 }
