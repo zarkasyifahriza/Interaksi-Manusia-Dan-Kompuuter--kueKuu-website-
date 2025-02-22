@@ -61,7 +61,70 @@
                 <p class="product-description">Roti Spesial dengan isi coklat premium dan taburan wijen</p>
                 <a href="#" class="product-button">LIHAT SEMUA PRODUK →</a>
             </div>
-        </section>        
+        </section>
+        {{-- Varian Produk --}}
+        <section class="varian-produk">
+            <p class="sub-title">VARIAN PRODUK KAMI</p>
+            <h2 class="title">Berbagai Varian Produk Spesial</h2>
+            <p class="description">Diproduksi oleh Tenaga Ahli yang Berkomitmen Terhadap Kualitas Produk</p>
+            
+            <div class="produk-container">
+                <div class="produk-item">
+                    <img src="{{ asset('img/kue1.png') }}" alt="Roti">
+                    <p>Roti</p>
+                </div>
+                <div class="produk-item">
+                    <img src="{{ asset('img/kue2.png') }}" alt="Cake">
+                    <p>Cake</p>
+                </div>
+                <div class="produk-item">
+                    <img src="{{ asset('img/kue3.png') }}" alt="Tart">
+                    <p>Tart</p>
+                </div>
+            </div>
+    
+            <div class="lihat-produk">
+                <a href="#">LIHAT SEMUA PRODUK →</a>
+            </div>
+        </section>
+        <div class="contact-container">
+            <div class="contact-box">
+                <div class="contact-image">
+                    <img src="{{ asset('img/interior.png') }}" alt="Anita Family Bakery">
+                </div>
+                <div class="contact-form">
+                    <h2>Sampaikan Pesan Anda</h2>
+                    <p>Anda dapat menyampaikan pertanyaan atau pesanan khusus kepada kami. Silakan hubungi kami dengan mengisi formulir di bawah ini:</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap*</label>
+                            <input type="text" id="nama" placeholder="Nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="keperluan">Keperluan</label>
+                            <select id="keperluan">
+                                <option>Pertanyaan</option>
+                                <option>Pemesanan</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Alamat Email*</label>
+                            <input type="email" id="email" placeholder="Masukkan Alamat Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="nomor">Nomor Telepon*</label>
+                            <input type="text" id="nomor" placeholder="Masukkan Nomor Telepon">
+                        </div>
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea id="pesan" placeholder="Tulis Pesan"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
     </div>
     <footer class="footer">
         <div class="footer-container">
