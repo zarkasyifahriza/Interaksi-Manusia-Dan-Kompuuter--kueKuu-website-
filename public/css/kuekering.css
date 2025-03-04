@@ -1,0 +1,59 @@
+/* Reset dasar */
+body, h1,p {
+    margin: 0;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    color: #8B4513;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 14px;
+}
+
+/* Header */
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 20px;
+}
+
+/* Section dengan Background Gambar */
+.background-section {
+    position: relative;
+    background: url("../img/kuekering.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 72px -1px;
+    color: #fff;
+}
+
+.background-section .text-section {
+    position: relative;
+    z-index: 2;
+    max-width: 2100px;
+    margin: 0 auto;
+    background: rgba(11, 11, 11, 0.234);
+    padding: 72px;
+    border-radius: 10px;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.produk-item {
+    text-align: center;
+}
+
+.produk-item img {
+    width: 250px; /* Ubah lebar gambar menjadi lebih kecil untuk tampilan portrait */
+    height: 350px; /* Ubah tinggi gambar menjadi lebih besar untuk tampilan portrait */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
