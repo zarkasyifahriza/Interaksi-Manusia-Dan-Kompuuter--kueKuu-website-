@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-size: 13px;
+}
+h2 {
+    font-size: 40px;
+    margin-bottom: 39px;    
+    color: #8B4513;
+}
+h6 {
+    font-size: 13px;
+    color: #CF9B3D;
+    margin-bottom: 20px;    
+}
+h3{
+    color: #8B4513;
+    font-size: 26px;
+}
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.produk-item {
+    width: 30%;
+    text-align: center;
+}
+.produk-item img {
+    width: 100%;
+    border-radius: 10px;
+}

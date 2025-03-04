@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KueKuu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
 <body>
     <div class="navbar">
         <div class="nav-left">
-            <a href="#">TENTANG KAMI</a>
-            <a href="#">PRODUK</a>
+            <a href="/tentang-kami">TENTANG KAMI</a>
+            <a href="/produk">PRODUK</a>
             <a href="#">LOKASI <i class="fa-solid fa-chevron-down"></i></a>
             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
@@ -70,21 +70,27 @@
             
             <div class="produk-container">
                 <div class="produk-item">
-                    <img src="{{ asset('img/kue1.png') }}" alt="Roti">
+                    <a href="/roti">
+                        <img src="{{ asset('img/kue1.png') }}" alt="Roti">                   
+                    </a>
                     <p>Roti</p>
                 </div>
                 <div class="produk-item">
-                    <img src="{{ asset('img/kue2.png') }}" alt="Cake">
+                    <a href="/cake">
+                        <img src="{{ asset('img/kue2.png') }}" alt="Roti">                   
+                    </a>
                     <p>Cake</p>
                 </div>
                 <div class="produk-item">
-                    <img src="{{ asset('img/kue3.png') }}" alt="Tart">
+                    <a href="/tart">
+                        <img src="{{ asset('img/kue3.png') }}" alt="Roti">                   
+                    </a>
                     <p>Tart</p>
                 </div>
             </div>
     
             <div class="lihat-produk">
-                <a href="#">LIHAT SEMUA PRODUK →</a>
+                <a href="/produk">LIHAT SEMUA PRODUK →</a>
             </div>
         </section>
         <div class="contact-container">
@@ -136,7 +142,7 @@
                 <div>
                     <h3>NAVIGASI</h3>
                     <ul>
-                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="/tentang-kami">Tentang Kami</a></li>
                         <li><a href="#">Lokasi Gerai</a></li>
                         <li><a href="#">Hubungi Kami</a></li>
                         <li><a href="#">Homepage</a></li>
