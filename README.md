@@ -31,10 +31,6 @@ KueKuu adalah sebuah website toko kue yang dirancang dengan fokus pada kemudahan
 
 ## 🛠️ Teknologi yang Digunakan
 
-- HTML, CSS, dan JavaScript
-- Framework CSS: Bootstrap / Tailwind (pilih sesuai penggunaan)
-- Backend (jika ada): PHP / Node.js / lainnya
-- Database (jika ada): MySQL / MongoDB / lainnya
+- Menggunakan Framework Laravel
 
-## 📁 Struktur Folder (Contoh)
 
