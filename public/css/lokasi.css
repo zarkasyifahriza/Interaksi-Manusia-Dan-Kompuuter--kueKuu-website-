@@ -1,0 +1,330 @@
+.lokasi-BANGKALAN {
+  position: relative;
+  width: 1913px;
+  height: 1762px;
+  margin-top: -185px;
+}
+
+.lokasi-BANGKALAN .logo {
+  position: absolute;
+  width: 181px;
+  height: 82px;
+  top: 12px;
+  left: 867px;
+  object-fit: cover;
+}
+
+.lokasi-BANGKALAN .text-wrapper-5 {
+  position: absolute;
+  top: 187px;
+  left: 782px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #7a2712;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .p {
+  position: absolute;
+  top: 256px;
+  left: 833px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .footer {
+  position: absolute;
+  width: 1913px;
+  height: 465px;
+  top: 1297px;
+  left: 0;
+}
+
+.lokasi-BANGKALAN .overlap-group {
+  position: absolute;
+  width: 86px;
+  height: 37px;
+  top: 333px;
+  left: 701px;
+}
+
+.lokasi-BANGKALAN .text-wrapper-20 {
+  top: 0;
+  left: 1px;
+  position: absolute;
+  font-family: "Sans Serif Collection-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lokasi-BANGKALAN .line-2 {
+  position: absolute;
+  width: 86px;
+  height: 2px;
+  top: 28px;
+  left: 0;
+}
+
+.lokasi-BANGKALAN .text-wrapper-21 {
+  top: 333px;
+  left: 856px;
+  position: absolute;
+  font-family: "Sans Serif Collection-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lokasi-BANGKALAN .text-wrapper-22 {
+  top: 333px;
+  left: 993px;
+  position: absolute;
+  font-family: "Sans Serif Collection-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lokasi-BANGKALAN .text-wrapper-23 {
+  position: absolute;
+  top: 333px;
+  left: 1146px;
+  font-family: "Sans Serif Collection-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lokasi-BANGKALAN .text-wrapper-24 {
+  position: absolute;
+  top: 461px;
+  left: 429px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #cf9b3d;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .text-wrapper-25 {
+  position: absolute;
+  top: 520px;
+  left: 429px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #7a2712;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .text-wrapper-26 {
+  position: absolute;
+  top: 1086px;
+  left: 430px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #7a2712;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .text-wrapper-27 {
+  position: absolute;
+  top: 607px;
+  left: 429px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .text-wrapper-28bangkalan {
+  position: absolute;
+  top: 610px;
+  left: 725px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .text-wrapper-28sampang {
+  position: absolute;
+  top: 610px;
+  left: 676px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .line-3 {
+  position: absolute;
+  width: 493px;
+  height: 1px;
+  top: 635px;
+  left: 429px;
+  object-fit: cover;
+}
+
+.lokasi-BANGKALAN .line-4 {
+  position: absolute;
+  width: 493px;
+  height: 1px;
+  top: 683px;
+  left: 429px;
+  object-fit: cover;
+}
+
+.lokasi-BANGKALAN .overlap {
+  position: absolute;
+  width: 493px;
+  height: 1px;
+  top: 1062px;
+  left: 430px;
+  background-image: url(./img/line-6.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.lokasi-BANGKALAN .line-5 {
+  position: absolute;
+  width: 493px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.lokasi-BANGKALAN .line-6 {
+  position: absolute;
+  width: 493px;
+  height: 1px;
+  top: 1193px;
+  left: 430px;
+  object-fit: cover;
+}
+
+.lokasi-BANGKALAN .text-wrapper-29 {
+  position: absolute;
+  top: 651px;
+  left: 429px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .text-wrapper-30 {
+  top: 651px;
+  left: 799px;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 16px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lokasi-BANGKALAN .text-wrapper-31 {
+  position: absolute;
+  top: 1145px;
+  left: 430px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #0000008c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .text-wrapper-32 {
+  position: absolute;
+  top: 1145px;
+  left: 799px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #0000008c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lokasi-BANGKALAN .kuekuu {
+  position: absolute;
+  width: 491px;
+  height: 370px;
+  top: 462px;
+  left: 1173px;
+  object-fit: cover;
+}
+
+.lokasi-BANGKALAN .interior-toko {
+  position: absolute;
+  width: 491px;
+  height: 370px;
+  top: 857px;
+  left: 1173px;
+  object-fit: cover;
+}
+
+.lokasi-BANGKALAN .maps {
+  position: absolute;
+  width: 492px;
+  height: 316px;
+  top: 707px;
+  left: 430px;
+  object-fit: cover;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  position: relative;
+  z-index: 1000;
+}

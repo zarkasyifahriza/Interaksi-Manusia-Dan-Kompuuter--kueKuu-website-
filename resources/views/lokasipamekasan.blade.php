@@ -6,8 +6,7 @@
     <title>KueKuu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/produk.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/cake.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lokasi.css') }}">
 </head>
 <body>
     <div class="navbar">
@@ -28,45 +27,37 @@
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
     </div>
-    <section class="background-section">
-        <div class="text-section">
-            <h2>Cake</h2>
-            <p>Cinta itu seperti kue yang enak;</p>
-            <p>Kamu tidak akan pernah tahu kapan akan datang, tapi sebaiknya kamu memakannya ketika itu datang!</p>
-        </div>
-    </section>
     <div class="container">
-        <div class="produk-container">
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/brownies fruity.jpg') }}" alt="Roti">
-                <h3>Brownies Fruity</h3>
-                <h5>Rp 11.500</h5>
+        <div class="lokasi-BANGKALAN">
+            <div class="text-wrapper-5">Lokasi Gerai Kami</div>
+            <p class="p">Lokasi gerai kami tersebar di 4 lokasi</p>
+            <div class="overlap-group">
+                <div class="text-wrapper-20"><a href="/lokasibangkalan">BANGKALAN</a></div>
             </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/brownies kopi.jpg') }}" alt="Cake">
-                <h3>Brownies Kopi</h3>
-                <h5>Rp 15.000</h5>
+            <div class="text-wrapper-21"><a href="/lokasisampang">SAMPANG</a></div>
+            <div class="text-wrapper-22">
+                <a href="/pamekasan">PAMEKASAN</a>
+                <img class="line-2" src="img/line 4.png" />
             </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/candy pop.jpg') }}" alt="Tart">
-                <h3>Candy Pop</h3>
-                <h5>Rp 17.000</h5>
+            <div class="text-wrapper-23"><a href="/lokasisumenep">SUMENEP</a></div>
+            <div class="text-wrapper-24">GERAI KAMI</div>
+            <div class="text-wrapper-25">KueKuu Pamekasan</div>
+            <div class="text-wrapper-26">Jam Buka</div>
+            <div class="text-wrapper-27">Alamat</div>
+            <div class="text-wrapper-28sampang">Jl.Trunojoyo No.19, Kab.Sampang</div>
+            <img class="line-3" src="{{ asset('img/line 4.png') }}"/>
+            <img class="line-4" src="{{ asset('img/line 5.png') }}"/>
+            <div class="overlap">
+                <img class="line-5" src="{{ asset('img/line 7.png') }}" />
             </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/oreo cupcake.jpg') }}" alt="Pastry">
-                <h3>Oreo Cupcake</h3>
-                <h5>Rp 12.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/raspeberry muffin.jpg') }}" alt="Kue Kering">
-                <h3>Raspberry muffin</h3>
-                <h5>Rp 15.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/roti gulung.jpg') }}" alt="Kue Basah">
-                <h3>Roti Gulung</h3>
-                <h5>Rp 13.000</h5>
-            </div>
+            <img class="line-6" src="{{ asset('img/line 8.png') }}"/>
+            <div class="text-wrapper-29">Nomor Telepon:</div>
+            <div class="text-wrapper-30">+6281775114423</div>
+            <div class="text-wrapper-31">Senin - Minggu</div>
+            <div class="text-wrapper-32">07:00 - 22:00 WIB</div>
+            <img class="kuekuu" src="{{ asset('img/kuekuu 1.png') }}"/>
+            <img class="interior-toko" src="{{ asset('img/interior toko.png') }}"/>
+            <img class="maps" src="img/maps.png" />
         </div>
     </div>
     <footer class="footer">
@@ -98,7 +89,7 @@
                 <div>
                     <h3>HUBUNGI KAMI</h3>
                     <p>Email: <a href="mailto:hotline@anitafamily.co.id">kuekuu@gmail.com</a></p>
-                    <p>Hotline: 081775114422/p>
+                    <p>Hotline: 081775114422</p>
                 </div>
                 <div>
                     <h3>IKUTI KAMI</h3>
@@ -114,6 +105,5 @@
             <p>© 2025 KueKuu — All Rights Reserved</p>
         </div>
     </footer>
-
 </body>
 </html>

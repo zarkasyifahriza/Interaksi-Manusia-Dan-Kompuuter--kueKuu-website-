@@ -7,7 +7,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdfaf2;
+    background-color: #ffffff;
 }
 
 .navbar {
@@ -92,7 +92,7 @@ body {
 }
 
 .footer {
-    background-color: #fff;
+    background-color: #fffaed;
     padding: 40px 20px;
     font-family: Arial, sans-serif;
     color: #3e3e3e;
