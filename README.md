@@ -4,6 +4,11 @@ Selamat datang di repositori proyek **KueKuu**!
 Proyek ini dibuat untuk memenuhi tugas mata kuliah **Interaksi Manusia dan Komputer (IMK)**.  
 KueKuu adalah sebuah website toko kue yang dirancang dengan fokus pada kemudahan penggunaan, kenyamanan pengguna, serta desain antarmuka yang menarik dan intuitif.
 
+## 👥 Tim Pengembang
+
+- Zarkasyi Fahriza (220411100001)
+- Siti Nor Amalia  (220411100007)
+
 ## 🎯 Tujuan Proyek
 
 - Menerapkan prinsip-prinsip Interaksi Manusia dan Komputer dalam pengembangan aplikasi web.
