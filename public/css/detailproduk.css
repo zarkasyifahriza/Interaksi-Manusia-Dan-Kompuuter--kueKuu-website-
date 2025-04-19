@@ -1,0 +1,241 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left !important;
+}
+
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.product-images {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-gallery img {
+    width: 130px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(4.4);
+}
+
+.main-image img {
+    width: 368px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+    padding: 10px;
+    text-align: left;
+    align-items: flex-start ;
+}
+
+.product-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: gold;
+    font-size: 18px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.description {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+}
+
+.add-to-cart {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Pastikan tombol tidak mengambil lebar penuh */
+    margin-left: 0; /* Pastikan tombol berada di kiri */
+    text-align: left; /* Tambahkan ini jika teks dalam tombol perlu rata kiri */
+}
+
+.add-to-cart:hover {
+    background-color: #e6b800;
+}
+.popup {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f6fff0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000;
+    text-align: center;
+    width: 300px;
+}
+
+.popup-content {
+    font-size: 16px;
+    color: #333;
+}
+
+.popup-icon {
+    font-size: 40px;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.popup-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.popup-actions button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.view-cart {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.view-cart:hover {
+    background-color: #218838;
+}
+
+.close-popup {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.close-popup:hover {
+    background-color: #c82333;
+}
+/* Pop-up sukses */
+.popup-success {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f6fff0;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000;
+    text-align: center;
+    width: 300px;
+    display: none;
+}
+
+.popup-success .popup-icon {
+    font-size: 50px;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.popup-success .popup-message {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.popup-success .popup-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.popup-success .popup-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.popup-success .popup-actions .close-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.popup-success .popup-actions .close-btn:hover {
+    background-color: #c82333;
+}
+
+.popup-success .popup-actions .continue-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.popup-success .popup-actions .continue-btn:hover {
+    background-color: #218838;
+}
+
+/* Overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}

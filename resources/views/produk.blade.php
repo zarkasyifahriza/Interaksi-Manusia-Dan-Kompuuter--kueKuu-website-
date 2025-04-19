@@ -12,9 +12,9 @@
     <div class="navbar">
         <div class="nav-left">
             <a href="/tentang-kami">TENTANG KAMI</a>
-            <a href="#">PRODUK</a>
-            <a href="#">LOKASI <i class="fa-solid fa-chevron-down"></i></a>
-            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="/produk">PRODUK</a>
+            <a href="/lokasibangkalan">LOKASI <i class="fa-solid fa-chevron-down"></i></a>
+            <a href="/keranjang"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
         <div class="logo">
             <img src="{{ asset('img/logo.png') }}" alt="logo">
@@ -80,10 +80,9 @@
                 <div>
                     <h3>NAVIGASI</h3>
                     <ul>
-                        <li><a href="#">Tentang Kami</a></li>
-                        <li><a href="#">Lokasi Gerai</a></li>
+                        <li><a href="/tentang-kami">Tentang Kami</a></li>
+                        <li><a href="/lokasibangkalan">Lokasi Gerai</a></li>
                         <li><a href="#">Hubungi Kami</a></li>
-                        <li><a href="#">Homepage</a></li>
                     </ul>
                 </div>
                 <div>
