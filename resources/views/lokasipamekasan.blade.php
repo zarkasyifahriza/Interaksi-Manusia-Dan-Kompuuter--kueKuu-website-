@@ -44,7 +44,7 @@
             <div class="text-wrapper-25">KueKuu Pamekasan</div>
             <div class="text-wrapper-26">Jam Buka</div>
             <div class="text-wrapper-27">Alamat</div>
-            <div class="text-wrapper-28sampang">Jl.Trunojoyo No.19, Kab.Sampang</div>
+            <div class="text-wrapper-28sampang">Jl.Trunojoyo No.19, Kab.Pamekasan</div>
             <img class="line-3" src="{{ asset('img/line 4.png') }}"/>
             <img class="line-4" src="{{ asset('img/line 5.png') }}"/>
             <div class="overlap">

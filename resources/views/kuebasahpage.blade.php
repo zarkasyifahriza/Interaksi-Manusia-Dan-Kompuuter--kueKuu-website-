@@ -37,36 +37,17 @@
     </section>
     <div class="container">
         <div class="produk-container">
-            <div class="produk-item">
-                <img src="{{ asset('img/kuebasah/carabikangf.jpg') }}" alt="Roti">
-                <h3>Carabikang</h3>
-                <h5>Rp 11.500</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kuebasah/kroket.jpg') }}" alt="Cake">
-                <h3>Kroket</h3>
-                <h5>Rp 15.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kuebasah/kuebasahz.png') }}" alt="Tart">
-                <h3>Kue basah</h3>
-                <h5>Rp 17.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kuebasah/lemper.jpg') }}" alt="Pastry">
-                <h3>Lemper</h3>
-                <h5>Rp 12.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kuebasah/risol.jpg') }}" alt="Kue Kering">
-                <h3>Risol</h3>
-                <h5>Rp 15.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kuebasah/wajik.jpg') }}" alt="Kue Basah">
-                <h3>Wajik</h3>
-                <h5>Rp 13.000</h5>
-            </div>
+            @foreach ($produk as $item)
+                <div class="produk-item" onclick="window.location.href='{{ route('detailproduk', $item->id) }}'" style="cursor: pointer;">
+                    @if ($item->gambar)
+                        <img src="data:image/jpeg;base64,{{ base64_encode($item->gambar) }}" alt="{{ $item->nama_produk }}">
+                    @else
+                        <img src="{{ asset('img/default.png') }}" alt="Default">
+                    @endif
+                    <h3>{{ $item->nama_produk }}</h3>
+                    <h5>Rp {{ number_format($item->harga, 0, ',', '.') }}</h5>
+                </div>
+            @endforeach
         </div>
     </div>
     <footer class="footer">
