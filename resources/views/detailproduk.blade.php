@@ -32,28 +32,23 @@
         <h1 class="page-title">Detail Produk</h1>
         <div class="product-detail">
             <div class="product-images">
-                <div class="image-gallery">
-                    <img src="{{ asset('img/abon.jpg') }}" alt="Product Image 1">
-                    <img src="{{ asset('img/abon2.jpg') }}" alt="Product Image 2">
-                    <img src="{{ asset('img/roti/roti abon.jpg') }}" alt="Product Image 3">
-                </div>
                 <div class="main-image">
-                    <img src="{{ asset('img/roti/roti abon.jpg') }}" alt="Main Product Image">
+                    @if ($gambarBase64)
+                        <img src="data:image/jpeg;base64,{{ $gambarBase64 }}" alt="{{ $produk->nama_produk }}">
+                    @else
+                        <img src="{{ asset('img/default.png') }}" alt="Default Image">
+                    @endif
                 </div>
             </div>
             <div class="product-info">
-                <h2>Abon Mayo</h2>
+                <h2>{{ $produk->nama_produk }}</h2>
                 <div class="rating">
-                    <span class="stars">★★★★★</span>
                     <span class="reviews">(25)</span>
+                    <span class="stars">★★★★★</span> 
+                    <span class="reviews">| Stok tersedia:{{ $produk->stok }}</span>
                 </div>
-                <p class="price">Rp 11.500</p>
-                <p class="description">
-                    Abon Mayo adalah perpaduan unik antara gurihnya abon dan lembutnya saus mayones yang menciptakan sensasi rasa yang kaya dan menggugah selera.
-                </p>
-                <p class="description">
-                    Abon yang digunakan biasanya terbuat dari daging sapi atau ayam yang direbus hingga kering dan disuwir halus, kemudian dibumbui dengan rempah-rempah khas Indonesia yang memberikan cita rasa manis dan gurih.
-                </p>
+                <p class="price">{{ $produk->harga }}</p>
+                <p class="description"> {{ $produk->deskripsi }}</p>
                 <button class="add-to-cart" onclick="showPopup()">
                     <i class="fa-solid fa-cart-shopping"></i> Tambahkan ke keranjang
                 </button>

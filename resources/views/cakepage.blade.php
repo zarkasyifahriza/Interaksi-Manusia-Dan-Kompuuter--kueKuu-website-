@@ -37,36 +37,17 @@
     </section>
     <div class="container">
         <div class="produk-container">
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/brownies fruity.jpg') }}" alt="Roti">
-                <h3>Brownies Fruity</h3>
-                <h5>Rp 11.500</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/brownies kopi.jpg') }}" alt="Cake">
-                <h3>Brownies Kopi</h3>
-                <h5>Rp 15.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/candy pop.jpg') }}" alt="Tart">
-                <h3>Candy Pop</h3>
-                <h5>Rp 17.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/oreo cupcake.jpg') }}" alt="Pastry">
-                <h3>Oreo Cupcake</h3>
-                <h5>Rp 12.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/raspeberry muffin.jpg') }}" alt="Kue Kering">
-                <h3>Raspberry muffin</h3>
-                <h5>Rp 15.000</h5>
-            </div>
-            <div class="produk-item">
-                <img src="{{ asset('img/kue/roti gulung.jpg') }}" alt="Kue Basah">
-                <h3>Roti Gulung</h3>
-                <h5>Rp 13.000</h5>
-            </div>
+            @foreach ($produk as $item)
+                <div class="produk-item" onclick="window.location.href='{{ route('detailproduk', $item->id) }}'" style="cursor: pointer;">
+                    @if ($item->gambar)
+                        <img src="data:image/jpeg;base64,{{ base64_encode($item->gambar) }}" alt="{{ $item->nama_produk }}">
+                    @else
+                        <img src="{{ asset('img/default.png') }}" alt="Default">
+                    @endif
+                    <h3>{{ $item->nama_produk }}</h3>
+                    <h5>Rp {{ number_format($item->harga, 0, ',', '.') }}</h5>
+                </div>
+            @endforeach
         </div>
     </div>
     <footer class="footer">

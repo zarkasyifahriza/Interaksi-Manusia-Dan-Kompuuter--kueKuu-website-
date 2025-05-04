@@ -36,19 +36,16 @@
         <img src="{{ asset('img/logo.png') }}" alt="logo">
         <h2 class="since">SINCE 2025</h2>
         <p class="description">
-            Anita Family lahir dari sebuah kota kecil di ujung timur pulau Madura. Nama "ANITA" dipilih dari penggalan 
-            nama sang pendiri, yaitu sepasang suami istri Ibu Aini dan Bapak Taufik. Saat itulah sejarah baru hadir 
-            khususnya untuk pecinta bakery dan kuliner. Mulanya memasak untuk keluarga tercinta, passion yang kuat 
-            menjadikan keahlian dan kecintaan beliau dalam meracik dan memadu bahan yang akhirnya menjadi favorit 
-            bukan hanya keluarga tapi juga untuk masyarakat luas.
+            KueKuu Bakery hadir untuk menghadirkan kelezatan dalam setiap gigitan. Berawal dari kecintaan terhadap seni baking, 
+            kami berkomitmen untuk menyajikan kue dan roti berkualitas tinggi dengan bahan-bahan premium dan proses pembuatan yang higienis.
         </p>
         <p class="description">
-            Memiliki komitmen untuk selalu menghadirkan bahan premium serta memadukannya dengan metode 
-            pengolahan yang baik membuat produk yang dihasilkan fresh setiap hari.
+            Setiap produk yang kami buat selalu fresh setiap hari, mengutamakan cita rasa, tekstur, dan tampilan yang menggugah selera. 
+            Dari roti lembut hingga kue spesial untuk berbagai acara, KueKuu Bakery siap menjadi bagian dari setiap momen istimewa Anda.
         </p>
         <p class="description">
-            Anita Family Bakery selalu ingin ada untuk anda dalam setiap momen berharga dalam hidup anda. 
-            Dengan itu kami persembahkan segalanya dari hati, karena sesuatu yang dari hati akan sampai ke hati pula.
+            Nikmati kehangatan dan kebahagiaan dalam setiap kreasi kami, 
+            karena bagi kami, kue yang dibuat dengan hati akan membawa kebahagiaan bagi siapa saja yang menikmatinya.
         </p>
         <p class="love-message">Karena Cinta Kami Membuatnya</p>
         <h3 class="slogan">We love it so we make it</h3>

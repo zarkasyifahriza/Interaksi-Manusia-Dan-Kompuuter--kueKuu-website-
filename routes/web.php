@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\CheckoutController;
 
 Route::get('/', function () {
     return view('landingpage');
@@ -50,3 +52,13 @@ Route::get('/suksestambahkeranjang', function () {
 Route::get('/keranjang', function () {
     return view('keranjang');
 });
+
+Route::get('/detailproduk/{id}', [ProdukController::class, 'showDetail'])->name('detailproduk');
+Route::get('/roti', [ProdukController::class, 'showRotiPage']);
+Route::get('/cake', [ProdukController::class, 'showCakePage']);
+Route::get('/tart', [ProdukController::class, 'showTartPage']);
+Route::get('/pastry', [ProdukController::class, 'showPastryPage']);
+Route::get('/kuekering', [ProdukController::class, 'showKuekeringPage']);
+Route::get('/kuebasah', [ProdukController::class, 'showKuebasahPage']);
+Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
+
