@@ -9,6 +9,10 @@ KueKuu adalah sebuah website toko kue yang dirancang dengan fokus pada kemudahan
 - Zarkasyi Fahriza (220411100001)
 - Siti Nor Amalia  (220411100007)
 
+🎨 Desain Antarmuka (Figma)
+Untuk melihat prototipe dan desain antarmuka proyek ini, silakan kunjungi:
+👉 https://www.figma.com/design/K9F3e2UNCTWF8U26EfjRLj/IMK?node-id=0-1&t=GeukjZeJy3x0Ffp6-1
+
 ## 🎯 Tujuan Proyek
 
 - Menerapkan prinsip-prinsip Interaksi Manusia dan Komputer dalam pengembangan aplikasi web.
