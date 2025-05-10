@@ -98,32 +98,54 @@
                 <div class="contact-form">
                     <h2>Sampaikan Pesan Anda</h2>
                     <p>Anda dapat menyampaikan pertanyaan atau pesanan khusus kepada kami. Silakan hubungi kami dengan mengisi formulir di bawah ini:</p>
-                    <form>
+                    <!-- Menampilkan pesan sukses jika ada -->
+                    @if(session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+                    <form action="{{ route('pesan.store') }}" method="POST">
+                        @csrf
                         <div class="form-group">
                             <label for="nama">Nama Lengkap*</label>
-                            <input type="text" id="nama" placeholder="Nama Anda">
+                            <input type="text" id="nama" name="nama_lengkap" placeholder="Nama Anda" required>
+                            @error('nama_lengkap')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
+                    
                         <div class="form-group">
                             <label for="keperluan">Keperluan</label>
-                            <select id="keperluan">
-                                <option>Pertanyaan</option>
-                                <option>Pemesanan</option>
+                            <select id="keperluan" name="keperluan" required>
+                                <option value="Pertanyaan">Pertanyaan</option>
+                                <option value="Pesanan">Pesanan</option>
+                                <option value="Lainnya">Lainnya</option>
                             </select>
                         </div>
+                    
                         <div class="form-group">
                             <label for="email">Alamat Email*</label>
-                            <input type="email" id="email" placeholder="Masukkan Alamat Email">
+                            <input type="email" id="email" name="email" placeholder="Masukkan Alamat Email" required>
+                            @error('email')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
+                    
                         <div class="form-group">
                             <label for="nomor">Nomor Telepon*</label>
-                            <input type="text" id="nomor" placeholder="Masukkan Nomor Telepon">
+                            <input type="text" id="nomor" name="nomor_telepon" placeholder="Masukkan Nomor Telepon" required>
+                            @error('nomor_telepon')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
+                    
                         <div class="form-group">
                             <label for="pesan">Pesan</label>
-                            <textarea id="pesan" placeholder="Tulis Pesan"></textarea>
+                            <textarea id="pesan" name="pesan" placeholder="Tulis Pesan"></textarea>
                         </div>
                         <button type="submit" class="btn">Kirim Pesan</button>
                     </form>
+                                      
                 </div>
             </div>
         </div>
@@ -188,6 +210,7 @@
             setTimeout(showSlides, 3000);
         }
         showSlides();
+        
     </script>
 </body>
 </html>
