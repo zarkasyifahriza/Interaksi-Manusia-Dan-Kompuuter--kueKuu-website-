@@ -399,3 +399,37 @@ body {
 .contact-form .btn:hover {
     background-color: #e65c00;
 }
+/* Gaya untuk alert sukses */
+.alert {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.alert-success {
+    background-color: #d4edda; /* Warna hijau muda */
+    color: #155724; /* Warna teks hijau gelap */
+    border: 1px solid #c3e6cb; /* Border hijau muda */
+}
+
+.alert-success a {
+    color: #155724;
+    text-decoration: underline;
+}
+
+.alert-success .close {
+    color: #155724;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    background: none;
+    border: none;
+}
+
+.alert-success .close:hover {
+    color: #1e7e34;
+}

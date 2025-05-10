@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\PesanPenggunaController;
+
+
 
 Route::get('/', function () {
     return view('landingpage');
@@ -61,4 +64,5 @@ Route::get('/pastry', [ProdukController::class, 'showPastryPage']);
 Route::get('/kuekering', [ProdukController::class, 'showKuekeringPage']);
 Route::get('/kuebasah', [ProdukController::class, 'showKuebasahPage']);
 Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
+Route::post('/pesan', [PesanPenggunaController::class, 'store'])->name('pesan.store');
 
